@@ -79,7 +79,7 @@ Models will be saved to `./savemodel` by default. FYI, it can be trained with 2 
 
     sh test.sh
     
-Results will be saved to `./results` by default. Quantitative metrics should be measured by `./matlab_testcode/test_withpic.m`. The python version is for reference only.
+Results will be saved to `./results` by default. Quantitative metrics should be measured by `matlab_testcode/test_withpic.m`. The python version is for reference only.
 
 ## Citation
 If you find this work or code useful for your research, please consider citing:

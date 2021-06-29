@@ -1,0 +1,7 @@
+torch
+opencv-python
+numpy
+scipy
+skimage
+PIL
+mmcv

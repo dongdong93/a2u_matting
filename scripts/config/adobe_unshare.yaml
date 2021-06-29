@@ -1,0 +1,52 @@
+DATASET:
+  name: 'Adobe_Image_Matting'
+  data_dir: '/media/yutong/DATA/data/datasets/Combined_Dataset'
+  train_fg_list: 'train_fg.txt'
+  train_alpha_list: 'train_alpha.txt'
+  train_bg_list: 'train_bg.txt'
+  val_list: 'test.txt'
+
+
+MODEL:
+  stride: 16
+  backbone: resnet34
+  decoder_conv_operator: residual_conv
+  decoder_kernel_size: 3
+  decoder_block_num: 2
+  aspp: True
+  up_kernel_size: 3
+  encode_kernel_size: 6
+  downupsample_group: 1
+  share: False
+
+
+
+TRAIN:
+  model_save_dir: './savemodel'
+  random_seed: 6
+  evaluate_only: False
+  crop_size: 512
+  batch_size: 16
+  initial_lr: 0.01
+  num_epochs: 30
+  epoch_iterations: 6000
+  num_workers: 2
+  freeze_bn: True
+  apex: False
+  load_data: False
+  load_bg: False
+  lmdb: False
+  random_bgidx: True
+  all_bg: True
+
+VAL:
+  test_all_metrics: False
+
+TEST:
+  checkpoint: 'model_best.pth'
+  result_dir: './results'
+
+
+
+
+EXP: 'a2u-matting'

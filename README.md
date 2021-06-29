@@ -6,8 +6,8 @@
 
 The official repository for paper:
 
-> [**Learning Affinity-Aware Upsampling for Deep Image Matting**](https://arxiv.org/pdf/2011.14288.pdf),
-> to appear in CVPR2021
+> [**Learning Affinity-Aware Upsampling for Deep Image Matting**](https://openaccess.thecvf.com/content/CVPR2021/papers/Dai_Learning_Affinity-Aware_Upsampling_for_Deep_Image_Matting_CVPR_2021_paper.pdf),
+> CVPR2021
 
 
 ## Prerequisite

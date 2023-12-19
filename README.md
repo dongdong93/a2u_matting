@@ -33,7 +33,7 @@ Our model trained on the Adobe Image Matting dataset can be downloaded from:
 
 | Model | SAD | MSE | Grad | Conn | config |
 | :--: | :--: | :--: | :--: | :--: | :--: |
-| [Ours](https://cloudstor.aarnet.edu.au/plus/s/KQQ2t2Bvt2YO4JC) | 32.10 | 0.0078 | 16.33 | 29.00 | ./config/adobe.yaml |
+| [Ours](https://drive.google.com/file/d/1hGe86w611FKl8YaTD3YWXlHDC0XIATyh/view?usp=sharing) | 32.10 | 0.0078 | 16.33 | 29.00 | ./config/adobe.yaml |
  
 Disclaimer:
 - This is a reimplementation. The metrics may be slightly different from the ones reported in our original paper.
@@ -41,7 +41,7 @@ Disclaimer:
 Another pretrained model on the Adobe Image Matting dataset with 'unshare' setting can be downloaded from:
 | Model | SAD | MSE | Grad | Conn | config |
 | :--: | :--: | :--: | :--: | :--: | :--: |
-| [Ours-unshare](https://cloudstor.aarnet.edu.au/plus/s/GqfMBcnWVegnxCZ) | 31.87 | 0.0075 | 14.25 | 29.17 | ./config/adobe_unshare.yaml |
+| [Ours-unshare](https://drive.google.com/file/d/1CGunN8gMHDypUzWzsj5xfa0I9bM16kyJ/view?usp=sharing) | 31.87 | 0.0075 | 14.25 | 29.17 | ./config/adobe_unshare.yaml |
 
 **As covered by ADOBE IMAGE MATTNG DATASET LICENSE AGREEMENT, the trained models included in this repository can only be used/distributed for non-commercial purposes.**
 
